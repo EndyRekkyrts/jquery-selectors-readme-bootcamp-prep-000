@@ -1,6 +1,20 @@
 // declare your functions here...
-$('p') function(paragraphSelector) {});
-$('img') (lastImageSelector)
-$('#ninjaBaby') (ninjaBabySelector)
-$('div') (divSelector)
-$('ul li:#pic-list') (firstListItem)
+function paragraphSelector()) {
+  return $('p');
+}
+
+function lastImageSelector() {
+return $('img:last');
+}
+
+function ninjaBabySelector() {
+return $('#baby-ninja');
+}
+
+function divSelector() {
+return $('.pics');
+}
+
+function firstListItem() {
+return $('ul:#pic-list li:first-child');
+}
